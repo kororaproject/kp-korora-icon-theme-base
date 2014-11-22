@@ -1,0 +1,23 @@
+From 177cc9ae380acb29ba1fd6f1fb62c49dea4595f7 Mon Sep 17 00:00:00 2001
+From: firnsy <firnsy@gmail.com>
+Date: Mon, 30 Jun 2014 19:10:47 +1000
+Subject: [PATCH 2/2] updated: icon theme name change.
+
+---
+ Numix/index.theme | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Numix/index.theme b/Numix/index.theme
+index b528e78..f84cdb2 100644
+--- a/Numix/index.theme
++++ b/Numix/index.theme
+@@ -1,5 +1,5 @@
+ [Icon Theme]
+-Name=Korora
++Name=Korora-Base
+ 
+ Comment=Icon theme for Korora based on Numix from Numix Project
+ 
+-- 
+2.1.0
+
