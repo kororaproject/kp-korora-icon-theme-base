@@ -16,7 +16,7 @@ index b213fb4..b528e78 100644
 -Name=Numix
 +Name=Korora
  
--Comment=Icon theme from Numix Project
+-Comment=Numix icon theme with a circular apps icons design
 +Comment=Icon theme for Korora based on Numix from Numix Project
  
  Inherits=gnome,hicolor

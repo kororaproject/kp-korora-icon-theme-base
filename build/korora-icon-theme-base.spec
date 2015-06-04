@@ -1,7 +1,7 @@
-%define git ec0c844
+%define git f88cf84
 
 Name:           korora-icon-theme-base
-Version:        0.3
+Version:        0.4
 Release:        1%{?dist}
 Summary:        Base Icons for the Korora Project
 License:        GPLv3
@@ -44,6 +44,9 @@ gtk-update-icon-cache %{_datadir}/icons/korora-base &>/dev/null ||:
 %{_datadir}/icons/korora-base/
 
 %changelog
+* Thu Jun  4 2015 Ian Firns <firnsy@kororaproject.org> - 0.4-1
+- Updated to latest upstream.
+
 * Thu Feb 19 2015 Chris Smart <csmart@kororaproject.org> - 0.3-1
 - Updated to latest upstream.
 
