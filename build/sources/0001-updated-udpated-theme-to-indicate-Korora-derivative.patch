@@ -1,14 +1,4 @@
-From 61893c05f2aa869bdb26f2126ba986dc847dfccd Mon Sep 17 00:00:00 2001
-From: firnsy <firnsy@gmail.com>
-Date: Sun, 29 Jun 2014 22:14:31 +1000
-Subject: [PATCH 1/2] updated: udpated theme to indicate Korora derivative.
-
----
- Numix/index.theme | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
 diff --git a/Numix/index.theme b/Numix/index.theme
-index b213fb4..b528e78 100644
 --- a/Numix/index.theme
 +++ b/Numix/index.theme
 @@ -1,7 +1,7 @@
@@ -16,11 +6,8 @@ index b213fb4..b528e78 100644
 -Name=Numix
 +Name=Korora
  
--Comment=Numix icon theme with a circular apps icons design
+-Comment=Icon theme from Numix Project
 +Comment=Icon theme for Korora based on Numix from Numix Project
  
  Inherits=gnome,hicolor
  
--- 
-2.1.0
-
