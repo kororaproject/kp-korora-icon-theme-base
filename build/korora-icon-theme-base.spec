@@ -1,15 +1,15 @@
 #%define git f88cf84
-%define git 4a4dbd5
+#%define git 4a4dbd5
+%define git b0939c3
 
 Name:           korora-icon-theme-base
-Version:        0.5
+Version:        0.6
 Release:        1%{?dist}
 Summary:        Base Icons for the Korora Project
 License:        GPLv3
 URL:            https://kororaproject.org/
 Source0:        https://github.com/numixproject/numix-icon-theme/tarball/%{git}
-Patch0:         0001-updated-udpated-theme-to-indicate-Korora-derivative.patch
-Patch1:         0002-updated-icon-theme-name-change.patch
+Patch0:         0001-updated-icon-theme-name-change.patch
 BuildArch:      noarch
 
 %description
@@ -19,7 +19,6 @@ Korora Project styling.
 %prep
 %setup -q -n numixproject-numix-icon-theme-%{git}
 %patch0 -p1
-%patch1 -p1
 
 %build
 
@@ -45,6 +44,9 @@ gtk-update-icon-cache %{_datadir}/icons/korora-base &>/dev/null ||:
 %{_datadir}/icons/korora-base/
 
 %changelog
+* Wed Jan  8 2016 Ian Firns <firnsy@kororaproject.org> - 0.6-1
+- Updated to latest upstream.
+
 * Sun Jul 12 2015 Ian Firns <firnsy@kororaproject.org> - 0.5-1
 - Updated to latest upstream.
 

@@ -1,10 +1,11 @@
 diff --git a/Numix/index.theme b/Numix/index.theme
+index 872afc8..9f1a394 100644
 --- a/Numix/index.theme
 +++ b/Numix/index.theme
 @@ -1,7 +1,7 @@
  [Icon Theme]
 -Name=Numix
-+Name=Korora
++Name=Korora-Base
  
 -Comment=Icon theme from Numix Project
 +Comment=Icon theme for Korora based on Numix from Numix Project
